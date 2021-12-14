@@ -129,18 +129,18 @@ You can use any element for the list and its elements, not just `ul`/`li`. Here 
 ```js
 var sortable = new Sortable(el, {
 	group: "name",  // or { name: "...", pull: [true, false, 'clone', array], put: [true, false, array] }
-	sort: true,  // sorting inside list
-	delay: 0, // time in milliseconds to define when the sorting should start
-	delayOnTouchOnly: false, // only delay if user is using touch
-	touchStartThreshold: 0, // px, how many pixels the point should move before cancelling a delayed drag event
-	disabled: false, // Disables the sortable if set to true.
+	sort: true,  // 排序内部列表
+	delay: 0, // 排序开始延迟时间毫秒
+	delayOnTouchOnly: false, // 只在用户使用可拖拽设备时延迟
+	touchStartThreshold: 0, // px, 去消前的移动偏移量
+	disabled: false, // 禁用可排序功能.
 	store: null,  // @see Store
-	animation: 150,  // ms, animation speed moving items when sorting, `0` — without animation
+	animation: 150,  // ms, 排序时的动画速度, `0`没有动画
 	easing: "cubic-bezier(1, 0, 0, 1)", // Easing for animation. Defaults to null. See https://easings.net/ for examples.
-	handle: ".my-handle",  // Drag handle selector within list items
-	filter: ".ignore-elements",  // Selectors that do not lead to dragging (String or Function)
+	handle: ".my-handle",  // 拖拽把手
+	filter: ".ignore-elements",  // 忽略拖拽的筛选器 (String or Function)
 	preventOnFilter: true, // Call `event.preventDefault()` when triggered `filter`
-	draggable: ".item",  // Specifies which items inside the element should be draggable
+	draggable: ".item",  // 指明哪些项目可以拖拽
 
 	dataIdAttr: 'data-id', // HTML attribute that is used by the `toArray()` method
 
