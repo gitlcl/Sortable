@@ -1,6 +1,7 @@
 # Sortable &nbsp; [![Financial Contributors on Open Collective](https://opencollective.com/Sortable/all/badge.svg?label=financial+contributors)](https://opencollective.com/Sortable) [![CircleCI](https://circleci.com/gh/SortableJS/Sortable.svg?style=svg)](https://circleci.com/gh/SortableJS/Sortable) [![DeepScan grade](https://deepscan.io/api/teams/3901/projects/5666/branches/43977/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3901&pid=5666&bid=43977) [![](https://data.jsdelivr.com/v1/package/npm/sortablejs/badge)](https://www.jsdelivr.com/package/npm/sortablejs) [![npm](https://img.shields.io/npm/v/sortablejs.svg)](https://www.npmjs.com/package/sortablejs)
 
 Sortable is a JavaScript library for reorderable drag-and-drop lists.
+Sortable 是一个javascript类库，用来创建可重排序并支持拖拽的列表
 
 Demo: http://sortablejs.github.io/Sortable/
 
@@ -9,14 +10,26 @@ Demo: http://sortablejs.github.io/Sortable/
 ## Features
 
  * Supports touch devices and [modern](http://caniuse.com/#search=drag) browsers (including IE9)
+ * 支持触控设备和现代的浏览器(包括IE9)
  * Can drag from one list to another or within the same list
+ * 可以从一个列表拖拽到其他或本列表
  * CSS animation when moving items
+ * 移动项目时有CSS动画
  * Supports drag handles *and selectable text* (better than voidberg's html5sortable)
+ * 支持拖拽手柄和可选中的文本
  * Smart auto-scrolling
+ * 智慧自动滚动
  * Advanced swap detection
+ * 高级交换检测
  * Smooth animations
+ * 顺滑的动画效果
  * [Multi-drag](https://github.com/SortableJS/Sortable/tree/master/plugins/MultiDrag) support
+ * 支持多项目同时拖拽
  * Support for CSS transforms
+ * 支持css改变
+ * Built using native HTML5 drag and drop API
+ * Built using native HTML5 drag and drop API
+ * Built using native HTML5 drag and drop API
  * Built using native HTML5 drag and drop API
  * Supports
    * [Meteor](https://github.com/SortableJS/meteor-sortablejs)
